@@ -1,1 +1,1 @@
-react webpack building
+react webpack basic configuration
