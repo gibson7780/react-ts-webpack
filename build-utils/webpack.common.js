@@ -16,6 +16,17 @@ const config = {
         exclude: /node_modules/,
         use: ['babel-loader'],
       },
+      {
+        test: /\.(png|jpe?g|gif)$/,
+        use: [
+          {
+            loader: 'file-loader',
+            options: {
+              name: 'img/[name].[ext]', // 修改生成路徑
+            },
+          },
+        ],
+      },
     ],
   },
   optimization: {
