@@ -16,6 +16,7 @@ const config = {
         use: [
           {
             // We configure 'MiniCssExtractPlugin'
+            // css在head以檔案形式從Link tag加入
             loader: MiniCssExtractPlugin.loader,
           },
           {

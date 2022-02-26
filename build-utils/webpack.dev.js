@@ -21,7 +21,7 @@ const config = {
         test: /\.css$/,
         use: [
           {
-            loader: 'style-loader',
+            loader: 'style-loader', // css插在head內
           },
           {
             loader: 'css-loader',
