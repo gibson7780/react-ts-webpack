@@ -23,6 +23,7 @@ const config = {
             loader: 'file-loader',
             options: {
               name: 'img/[name].[ext]', // 修改生成路徑
+              publicPath: '../', // 修改公共路徑 打包後目錄結構css會在 css資料夾 退出一層再進到img資料夾找圖
             },
           },
         ],
